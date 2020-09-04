@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(16, 52, 75);
+    margin: 0;
+    text-align: center;
+    font-family: cursive;
+}
+
+ul{
+    list-style-type: none;   /*use to remove dots in unorderd lists */
+}
+
+li{
+    display: inline-block;  /* it uses to make things in one line
+    or we can say it remove the line break*/
+}
+
+i{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.top-container h1{
+    width: 15%;
+    margin: 0 auto 0 auto;/*(t,r,b,l) or (tb,lr)*/
+    
+}
+
+.top-container{
+    background-color: rgb(16, 52, 75);
+    position: relative;
+    padding-top: 50px;
+    
+}
+
+.mid-container{
+    background-color: rgb(16, 52, 75);
+    position: relative;
+    padding-top: 50px;
+}
+
+#agent{
+    font-size: 100px;
+}
+
+.contact-me{
+    background-color: rgb(16, 52, 75);
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.contact-me b{
+    font-size: 35px;
+}
+
+.bottom-container{
+    background-color: rgb(16, 52, 75);
+    position: relative;
+    padding-top: 50px;
+}
+
+.mask{
+    height: 300px;
+    width: 300px;
+}
+
+.hacker{
+    height: 500px;
+    width: 400px;
+}
+
+.contact-button{
+    height: 5px;
+    width: 10px;
+    background-color: rgb(9, 75, 71);
+    text-decoration: none;
+    color: lightyellow;
+    border: 3px solid black;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+.contact-button:hover{
+    background-color: rgb(13, 68, 64);
+}
+
+.bottom-container a{
+    text-decoration: none;
+    color:rgb(88, 81, 81);
+    
+}
+
+.bottom-container footer{
+    height: 25px;
+    width: 100%;
+    background-color: white;
+}
